@@ -1,0 +1,67 @@
+Median filter 사이즈에 따른 결과 비교
+
+일단, main함수 안에 있는 미디언필터링 코드를 아래와 같이 변경하세요.
+
+윈도우 사이즈를 변수로 설정하여 가변적으로 동작하도록 설정하기 쉽게 하는 과정입니다.
+
+ 
+
+/* Median filtering */
+
+int Length = 3; // 마스크의 한 변의 길이
+
+int Margin = Length / 2;
+
+int WSize = Length * Length;
+
+BYTE* temp = (BYTE*)malloc(sizeof(BYTE) * WSize);
+
+int W = hInfo.biWidth, H = hInfo.biHeight;
+
+int i, j, m, n;
+
+for (i = Margin; i < H - Margin; i++) {
+
+             for (j = Margin; j < W - Margin; j++) {
+
+                          for (m = -Margin; m <= Margin; m++) {
+
+                                       for (n = -Margin; n <= Margin; n++) {
+
+                                                   temp[(m + Margin) * Length + (n + Margin)] = Image[(i+m)*W + j+n];
+
+                                        }
+
+                             }
+
+                             Output[i * W + j] = Median(temp, WSize);
+
+                     }
+
+             }
+
+             free(temp);
+
+             /* Median filtering */
+
+ 
+
+먼저, 위의 코드의 의미를 이해하고, 행별로 의미하는 바를 주석(//)표시로 설명하세요.
+
+5*5, 7*7, 9*9사이즈 미디언필터링한 수행 결과를
+
+median_5.bmp
+
+median_7.bmp
+
+median_9.bmp
+
+파일로 제출하세요.
+
+윈도우 사이즈가 커질수록 체감되는 처리시간이 어떤지 직접 경험해보세요.
+
+출력된 결과도 윈도우 사이즈별로 비교해보세요.
+
+제출은 주석표시된 cpp 소스파일 1개, bmp파일 3개 입니다.
+
+압축해서 하나의 파일로 제출하세요.
