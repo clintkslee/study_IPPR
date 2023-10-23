@@ -1,0 +1,5 @@
+엑셀 파일을 참고하여, genuine(본인) 및 imposter(타인) 매칭 distance 값들을 통해 ROC 곡선을 구하세요.
+
+(fvdist.xls 파일 사용, 엑셀을 이용해 그래프를 작성하여 엑셀파일(*.xls)을 제출)
+
+fvdist.xlsx 파일을 다운받아서 실습합니다.

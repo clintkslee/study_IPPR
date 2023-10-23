@@ -1,0 +1,7 @@
+﻿  src.cpp
+C:\Users\san\Desktop\2023-2학기\(KMOOC)영상처리와 패턴인식\실습\week12 (HW9)\12주차 실습코드\src.cpp(173,43): warning C4244: '=': 'long'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\san\Desktop\2023-2학기\(KMOOC)영상처리와 패턴인식\실습\week12 (HW9)\12주차 실습코드\src.cpp(193,43): warning C4244: '=': 'long'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\san\Desktop\2023-2학기\(KMOOC)영상처리와 패턴인식\실습\week12 (HW9)\12주차 실습코드\src.cpp(213,43): warning C4244: '=': 'long'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\san\Desktop\2023-2학기\(KMOOC)영상처리와 패턴인식\실습\week12 (HW9)\12주차 실습코드\src.cpp(233,43): warning C4244: '=': 'long'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\san\Desktop\2023-2학기\(KMOOC)영상처리와 패턴인식\실습\week12 (HW9)\12주차 실습코드\src.cpp(253,43): warning C4244: '=': 'long'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Project1.vcxproj -> C:\Users\san\Desktop\2023-2학기\(KMOOC)영상처리와 패턴인식\실습\week12 (HW9)\12주차 실습코드\x64\Debug\Project1.exe
